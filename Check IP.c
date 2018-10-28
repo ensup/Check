@@ -1,9 +1,6 @@
 #include <stdio.h>
-
-int main()
-{
-	system("ipconfig");
+int main() {
+	system("title Check IP");
+	system("ipconfig /all");
 	system("pause");
-
-	return 0;
 }
